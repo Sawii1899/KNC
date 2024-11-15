@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: Helvetica;
+}
+header img {
+    max-width: 80px;
+    max-height: 80px;
+}
+header {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+    padding: 15px;
+    background-image:radial-gradient(rgb(50,50,50)
+    , rgb(30,30,30));
+}
+.menu {
+    list-style-type: none;
+    margin: 0px 10px;
+    display: flex;
+}
+.menu a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    padding: 10px;
+    margin: 0px 10px;
+}
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
