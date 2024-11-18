@@ -94,3 +94,57 @@ footer {
     left: 0;
     width: 100%;
 }
+
+main{
+    background-color: rgb(250, 250, 250);
+    padding: 50px;
+}
+
+.czlonek *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.czlonek {
+    width: 320px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.czlonek:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+.czlonek-img {
+    width: 100%;
+    height: 186px;
+    max-width: 280px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.czlonek-imie {
+    font-size: 25px;
+    font-weight: bold;
+    color: #D92129;
+    margin-bottom: 10px;
+}
+.czlonek-opis {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin: 0 10px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
