@@ -34,3 +34,55 @@ header {
     color: white;
     border-bottom: 2px solid white;
 }
+
+
+section{
+    height:686px;
+}
+
+.footer {
+    background-color: rgb(35, 35, 35);
+    color: #e0e0e0;
+    padding: 2rem 1rem;
+    font-family: 'Sans-serif';
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.footer *{
+    list-style: none;
+    text-align: center;
+}
+
+.footer h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.icon-link {
+    font-size: 1.75rem;
+    color: rgb(224, 224, 224);
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #D92129;
+}
+
+.footer p {
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+  
